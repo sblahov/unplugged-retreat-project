@@ -89,7 +89,7 @@ textarea {
 
 .content-wrapper {
   width: 90%;
-  margin: 50px 0;
+  margin: 30px 0;
 }
 
 html {
@@ -121,7 +121,7 @@ h4 {
 
 p {
   font-size: 0.875em;
-  line-height: 1.125em;
+  line-height: 1.30em;
 }
 
 a {
@@ -131,6 +131,14 @@ a {
 
 address {
   font-style: normal;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
 }
 
 /*---------------- Base Header - Footer Styles ----------------*/
@@ -156,6 +164,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 67%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -240,12 +256,20 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  align-items: flex-start; 
+  background: url('../img/hero-image.jpg') center no-repeat #333;
+  background-size: cover;
+}
+
+.hero-area .content-wrapper {
+  margin: 0 0 230px 0;
 }
 
 .hero-area h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.25em;
+  font-size: 2em;
   font-weight: normal; 
+  line-height: 1.5em;
   width: 83%;
 }
 
@@ -303,10 +327,13 @@ input[type=button] {
   display: flex; 
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/features-background.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
   margin-bottom: 50px;
+  width: 95%;
 }
 
 .features article {
@@ -333,6 +360,10 @@ input[type=button] {
   justify-content: center;
   flex-flow: row wrap;
   background-color: #2a423a;
+}
+
+.reviews .content-wrapper {
+  margin: 0;
 }
 
 .reviews h2 {
@@ -503,6 +534,11 @@ input[type=button] {
      header .content-wrapper {
       width: 100%;
       justify-content: space-between;
+      margin: 20px 0;
+     }
+
+     header figure {
+       width: 25%;
      }
      
      header nav {
@@ -537,6 +573,10 @@ input[type=button] {
 
       /* Hero Area */
 
+      .hero-area .content-wrapper {
+        margin: 20px 0 400px 0;
+      }
+
       /* Aside */
      aside .content-wrapper {
       margin: 50px 0;
@@ -566,10 +606,22 @@ input[type=button] {
 
       /* Reviews */
 
+      .reviews .content-wrapper {
+        margin-bottom: 60px;
+      }
+
       .reviews article {
         display: flex;
         justify-content: space-between;
         }
+
+      .reviews figure {
+        width: 45%;
+      }
+
+      .reviews h3 {
+        margin-top: 0px;
+      }
 
       .reviews article div {
         width: 49%;
@@ -653,8 +705,12 @@ input[type=button] {
 
       /* Reviews */
 
+      .reviews figure {
+        width: 40%;
+      }
+
       .reviews article div {
-        width: 45%;
+        width: 53%;
       }
 
       /* ==========================================================================
