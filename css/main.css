@@ -336,9 +336,14 @@ input[type=button] {
   width: 95%;
 }
 
+.features i {
+  font-size: 4em;
+  margin-bottom: 40px;
+}
+
 .features article {
   width: 56%;
-  margin: 50px 0;
+  margin: 25px 0;
 }
 
 .features .features-items {
@@ -617,7 +622,11 @@ input[type=button] {
       }
 
       .features .features-item-description {
-        width: 50%;
+        width: 55%;
+      }
+
+      #smiley {
+        padding-top: 14px;
       }
 
       /* Reviews */
@@ -721,6 +730,14 @@ input[type=button] {
 
       .features article {
         flex-basis: 30%;
+      }
+
+      #bed {
+        padding-top: 12px;
+      }
+
+      #smiley {
+        padding-top: 18px;
       }
 
       /* Reviews */
